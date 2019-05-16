@@ -21,7 +21,7 @@ Ein modernisiertes MyPlot
     - [x] popup
 - [ ] Subcommands
     - [ ] /p shop
-    - [ ] /p menu
+    - [x] /p menu
     - [ ] /p merge
     
 ### Subcommands

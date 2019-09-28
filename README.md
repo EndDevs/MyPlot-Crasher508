@@ -8,3 +8,6 @@ Ein modernisiertes MyPlot
 
 ### Description:
 Erweiterungen für MyPlot
+
+### Neu:
+- /p menu Subcommand

@@ -11,3 +11,4 @@ Erweiterungen für MyPlot
 
 ### Neu:
 - /p menu Subcommand
+- /p wall Subcommand

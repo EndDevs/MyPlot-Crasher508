@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @depend FormAPI
  * @softdepend MyPlot
  */
-namespace jasonwynn10\MyPlotWalls {
+namespace Crasher508\MyPlotWalls {
 	use jojoe77777\FormAPI\SimpleForm;
 	use MyPlot\Commands;
 	use MyPlot\MyPlot;
@@ -134,7 +134,7 @@ namespace jasonwynn10\MyPlotWalls {
 							$id = (int) $arr[0];
 							$damage = (int) $arr[1];
 							$block = BlockFactory::get($id, $damage);
-							Main::getInstance()->setPlotBorderBlocks($plot, $block, $sender);
+							Main::getInstance()->setPlotBorderBlocks($plot, $block, $player);
 						}) extends SimpleForm {
 							public function __construct(?callable $callable) {
 								$this->setTitle("Plot Wall");
